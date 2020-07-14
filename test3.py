@@ -67,7 +67,7 @@ plt.show()
 cols_not_reg3 = ['age', 'obese', 'smoker_norm']
 
 # ----------------------------------------------------------------------
-kf = KFold(n_splits=10, random_state=1, shuffle=True)
+kf = KFold(n_splits=18, random_state=1, shuffle=True)
 intercepts = []
 mses = []
 coefs = []
